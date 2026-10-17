@@ -86,8 +86,7 @@ selection. These may come later; see the changelog.
 
 **[Download the Windows beta](https://github.com/kerrdec97/PS5-Backport-GUI/releases/tag/early-testing-beta)** · [SHA-256 checksums](https://github.com/kerrdec97/PS5-Backport-GUI/releases/download/early-testing-beta/SHA256SUMS.txt)
 
-Windows 10 or 11 (64-bit). Extract `PS5-Backport-Windows-x64.zip` (check it against `SHA256SUMS.txt` first) and run
-`PS5BackportGUI.exe`. No Python or other runtime is needed. The first start unpacks the backport engine
+Windows 10 or 11 (64-bit). Download `PS5BackportGUI.exe`, verify it against `SHA256SUMS.txt`, and run it. No Python or other runtime is needed. The first start unpacks the backport engine
 (about 160 MB) into `%LOCALAPPDATA%\D97B`.
 
 Full instructions: [docs/INSTALLATION.md](docs/INSTALLATION.md)

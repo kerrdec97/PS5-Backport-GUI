@@ -9,13 +9,13 @@
 
 ## Install
 
-1. Get `PS5-Backport-Windows-x64.zip` and `SHA256SUMS.txt` from the [GitHub release](https://github.com/kerrdec97/PS5-Backport-GUI/releases/tag/early-testing-beta).
+1. Get `PS5BackportGUI.exe` and `SHA256SUMS.txt` from the [GitHub release](https://github.com/kerrdec97/PS5-Backport-GUI/releases/tag/early-testing-beta).
 2. Optional but recommended: check the download. In PowerShell:
    ```powershell
-   Get-FileHash .\PS5-Backport-Windows-x64.zip -Algorithm SHA256
+   Get-FileHash .\PS5BackportGUI.exe -Algorithm SHA256
    ```
    The hash must match the line in `SHA256SUMS.txt`.
-3. Extract the ZIP to a folder of your choice (for example `C:\Tools\PS5 Backport`).
+3. Save the EXE in a folder of your choice (for example `C:\Tools\PS5 Backport`).
 4. Run `PS5BackportGUI.exe`.
 
 The program is not code-signed, so Windows SmartScreen may show *Windows protected your PC*. Click **More info → Run
