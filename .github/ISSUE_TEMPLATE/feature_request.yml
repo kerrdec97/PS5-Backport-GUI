@@ -1,0 +1,41 @@
+name: Feature request
+description: Suggest an improvement (logs are not required)
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: title
+    attributes:
+      label: Feature title
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem it solves
+    validations:
+      required: true
+  - type: textarea
+    id: behaviour
+    attributes:
+      label: Suggested behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example use case
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+    validations:
+      required: false

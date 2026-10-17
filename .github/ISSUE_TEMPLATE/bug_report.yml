@@ -1,0 +1,136 @@
+name: Bug report
+description: Report a technical problem with diagnostic evidence
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "All technical reports belong here. Remove private data from logs. Never upload game files or proprietary binaries. PPSA should be PPSA followed by five digits; GitHub forms cannot enforce a regex. Black screens, crashes, missing audio and Pro failures need klog or meaningful alternative evidence."
+  - type: input
+    id: game_title
+    attributes:
+      label: "Game title"
+    validations:
+      required: true
+  - type: input
+    id: ppsa
+    attributes:
+      label: "PPSA title ID"
+      placeholder: "PPSA12345 (or N/A for an application-only problem)"
+    validations:
+      required: true
+  - type: input
+    id: game_version
+    attributes:
+      label: "Game version"
+      placeholder: "01.003.000 (or N/A)"
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: "Exact PS5 firmware"
+      placeholder: "9.60 \u2014 exact value, not 9.xx; N/A for PC-only problems"
+    validations:
+      required: true
+  - type: dropdown
+    id: console
+    attributes:
+      label: "Console model"
+      options:
+        - "Original / Fat PS5"
+        - "PS5 Slim"
+        - "PS5 Pro"
+        - "Other / Unknown"
+        - "N/A \u2014 PC-only problem"
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: "Game format"
+      options:
+        - "Extracted game folder"
+        - "exFAT image"
+        - "Installed package"
+        - "Other / N/A"
+    validations:
+      required: true
+  - type: dropdown
+    id: storage
+    attributes:
+      label: "Storage location"
+      options:
+        - "Internal console storage"
+        - "Internal M.2 SSD"
+        - "External USB"
+        - "Other / N/A"
+    validations:
+      required: true
+  - type: input
+    id: loader
+    attributes:
+      label: "Loading / mounting method and exact version"
+      placeholder: "Name and version, or N/A"
+    validations:
+      required: true
+  - type: input
+    id: tool_version
+    attributes:
+      label: "PS5 Backport build identifier"
+      placeholder: "From the app or exported logs"
+    validations:
+      required: true
+  - type: input
+    id: sdk
+    attributes:
+      label: "SDK configuration"
+      placeholder: "Selected SDK number, or N/A"
+    validations:
+      required: true
+  - type: input
+    id: fakelib
+    attributes:
+      label: "Fakelib configuration"
+      placeholder: "Default bundled set or describe any manual changes"
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: "What happened?"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "What should have happened?"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+    validations:
+      required: true
+  - type: input
+    id: error
+    attributes:
+      label: "Error code"
+      placeholder: "Exact code, if any"
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Diagnostic evidence"
+      placeholder: "Attach Export logs and klog/crash/hang capture here. If klog is unavailable, explain why and provide meaningful alternative evidence."
+    validations:
+      required: true
+  - type: checkboxes
+    id: evidence_confirmation
+    attributes:
+      label: Evidence and privacy
+      options:
+        - label: "I have attached logs or supplied meaningful alternative evidence and removed sensitive information."
+          required: true

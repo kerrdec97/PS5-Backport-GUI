@@ -1,0 +1,65 @@
+PS5 BACKPORT GUI PROPRIETARY SOFTWARE LICENCE
+
+Copyright (c) 2026 Deckerr97 and contributors. All rights reserved.
+
+This licence applies to PS5 Backport GUI itself. Third-party components bundled
+with or used by PS5 Backport GUI are governed by their own licences, reproduced
+in THIRD_PARTY_NOTICES.txt. Nothing in this licence limits the rights those
+licences grant.
+
+1. Limited licence
+
+Subject to these terms, you are granted a limited, revocable, non-exclusive,
+non-transferable licence to download, install, and run the compiled PS5
+Backport GUI application for personal, non-commercial use.
+
+2. Restrictions
+
+Except with prior written permission from the copyright holder, you may not:
+
+- copy or redistribute the application, other than making a reasonable backup
+  copy for your own use;
+- sell, rent, lease, sublicense, host, or commercially exploit the application;
+- modify, adapt, translate, or create derivative works from the application;
+- reverse engineer, decompile, or disassemble the application, except to the
+  limited extent that applicable law expressly permits despite this restriction;
+- remove or alter copyright, trademark, attribution, or proprietary notices; or
+- claim ownership of the application or its source code.
+
+3. Your games and consoles
+
+PS5 Backport GUI modifies copies of game files that you supply. You are
+responsible for using it only with games and consoles you are entitled to use,
+and for complying with all applicable laws and terms. Results are not
+guaranteed: a completed backport may not launch or run correctly. Keep your
+original files and backups.
+
+4. Ownership
+
+PS5 Backport GUI is licensed, not sold. No source code or intellectual-property
+rights are transferred to you. All rights not expressly granted are reserved.
+
+5. No warranty
+
+To the maximum extent permitted by applicable law, PS5 Backport GUI is provided
+"as is" and "as available", without warranties of any kind, whether express,
+implied, or statutory, including warranties of merchantability, fitness for a
+particular purpose, title, and non-infringement.
+
+6. Limitation of liability
+
+To the maximum extent permitted by applicable law, the copyright holders and
+contributors will not be liable for indirect, incidental, special,
+consequential, or punitive damages, or for loss of data, profits, or goodwill,
+arising from the application or its use, including damage to game files, save
+data, or consoles.
+
+7. Termination
+
+This licence terminates automatically if you materially breach these terms. On
+termination, you must stop using and delete your copies of PS5 Backport GUI.
+
+8. Contact
+
+For permissions outside this licence, contact the maintainer through:
+https://github.com/kerrdec97
