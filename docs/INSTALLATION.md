@@ -9,7 +9,7 @@
 
 ## Install
 
-1. Get `PS5BackportGUI.exe` and `SHA256SUMS.txt` from the [GitHub release](https://github.com/kerrdec97/PS5-Backport-GUI/releases/tag/early-testing-beta).
+1. Get `PS5BackportGUI.exe` and `SHA256SUMS.txt` from the [GitHub release](https://github.com/kerrdec97/PS5-Backport-GUI/releases/tag/early-testing-beta-20261018).
 2. Optional but recommended: check the download. In PowerShell:
    ```powershell
    Get-FileHash .\PS5BackportGUI.exe -Algorithm SHA256
