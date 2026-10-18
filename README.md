@@ -19,11 +19,13 @@
 
 ---
 
-## Latest beta — 0.3.1 (18 October 2026)
+## Latest beta — 0.3.2 (18 October 2026)
 
-### **[⬇ Download the latest build (0.3.1)](https://github.com/kerrdec97/PS5-Backport-GUI/releases/latest)**
+### **[⬇ Download the latest build (0.3.2)](https://github.com/kerrdec97/PS5-Backport-GUI/releases/latest)**
 
-**Fixed in 0.3.1:** no audio in STORY OF SEASONS: Grand Bazaar and WONDERBOY Asha in Monster World, Mewgenics crashing on boot on older firmware, and the KINGDOM HEARTS HD 2.8 Final Chapter Prologue black screen on 4.xx. All three were tested on a base PS5 on 4.50. Rebuild your backport from the original game files to pick up the fixes. See the [release notes](https://github.com/kerrdec97/PS5-Backport-GUI/releases/latest).
+**New in 0.3.2:** fixed a false "Not enough free space for the backport engine's working files" message on bigger games, even with plenty of space free.
+
+**Fixed in 0.3.1:** no audio in STORY OF SEASONS: Grand Bazaar and WONDERBOY Asha in Monster World, Mewgenics crashing on boot on older firmware, and the KINGDOM HEARTS HD 2.8 Final Chapter Prologue black screen on 4.xx. Rebuild your backport from the original game files to pick up the fixes. See the [release notes](https://github.com/kerrdec97/PS5-Backport-GUI/releases).
 
 Still included from 0.3.0: the **PS5 Pro PSSR 2 test** option (Pro firmware 9.00+ only; not yet tested on a PS5 Pro). Base consoles should use the normal FW 4xx ZIP.
 
