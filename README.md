@@ -23,7 +23,7 @@
 
 New **PS5 Pro PSSR 2 test** option and row-menu conversion from an existing backport ZIP or backported folder. **Pro firmware 9.00+ only; not yet tested on a PS5 Pro.** Base consoles should use the normal FW 4xx ZIP.
 
-This build also addresses `right.sprx` conversion failures, incorrect SDK readings from repacked metadata, richer bug-report prefill, Pro-only apply warnings, tooltip positioning, checkbox drawing and long output paths. See the [release notes](https://github.com/kerrdec97/PS5-Backport-GUI/releases/tag/early-testing-beta-20261018) for scope and limitations.
+This test build includes changes intended to address `right.sprx` conversion failures and incorrect SDK readings from repacked metadata, alongside richer bug-report prefill, Pro-only apply warnings, tooltip positioning, checkbox drawing and long output paths. See the [release notes](https://github.com/kerrdec97/PS5-Backport-GUI/releases/tag/early-testing-beta-20261018) for scope and limitations. **These are tests, not confirmed fixes; please report results on the original issue.**
 
 ## About
 
