@@ -19,11 +19,13 @@
 
 ---
 
-## Latest beta — 18 October 2026
+## Latest beta — 0.3.1 (18 October 2026)
 
-New **PS5 Pro PSSR 2 test** option and row-menu conversion from an existing backport ZIP or backported folder. **Pro firmware 9.00+ only; not yet tested on a PS5 Pro.** Base consoles should use the normal FW 4xx ZIP.
+### **[⬇ Download the latest build (0.3.1)](https://github.com/kerrdec97/PS5-Backport-GUI/releases/latest)**
 
-This test build includes changes intended to address `right.sprx` conversion failures and incorrect SDK readings from repacked metadata, alongside richer bug-report prefill, Pro-only apply warnings, tooltip positioning, checkbox drawing and long output paths. See the [release notes](https://github.com/kerrdec97/PS5-Backport-GUI/releases/tag/early-testing-beta-20261018) for scope and limitations. **These are tests, not confirmed fixes; please report results on the original issue.**
+**Fixed in 0.3.1:** no audio in STORY OF SEASONS: Grand Bazaar and WONDERBOY Asha in Monster World, Mewgenics crashing on boot on older firmware, and the KINGDOM HEARTS HD 2.8 Final Chapter Prologue black screen on 4.xx. All three were tested on a base PS5 on 4.50. Rebuild your backport from the original game files to pick up the fixes. See the [release notes](https://github.com/kerrdec97/PS5-Backport-GUI/releases/latest).
+
+Still included from 0.3.0: the **PS5 Pro PSSR 2 test** option (Pro firmware 9.00+ only; not yet tested on a PS5 Pro). Base consoles should use the normal FW 4xx ZIP.
 
 ## About
 
@@ -90,7 +92,7 @@ selection. These may come later; see the changelog.
 
 ## Download and install
 
-**[Download the Windows beta](https://github.com/kerrdec97/PS5-Backport-GUI/releases/tag/early-testing-beta-20261018)** · [SHA-256 checksums](https://github.com/kerrdec97/PS5-Backport-GUI/releases/download/early-testing-beta-20261018/SHA256SUMS.txt)
+**[Download the latest Windows beta](https://github.com/kerrdec97/PS5-Backport-GUI/releases/latest)** · [SHA-256 checksums](https://github.com/kerrdec97/PS5-Backport-GUI/releases/latest/download/SHA256SUMS.txt)
 
 Windows 10 or 11 (64-bit). Download `PS5BackportGUI.exe`, verify it against `SHA256SUMS.txt`, and run it. No Python or other runtime is needed. The first start unpacks the backport engine
 (about 160 MB) into `%LOCALAPPDATA%\D97B`.
