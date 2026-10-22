@@ -19,9 +19,11 @@
 
 ---
 
-## Latest beta — 0.3.2 (18 October 2026)
+## Current testing build — 0.3.3 (22 October 2026)
 
-### **[⬇ Download the latest build (0.3.2)](https://github.com/kerrdec97/PS5-Backport-GUI/releases/latest)**
+### **[⬇ Download the 0.3.3 testing build](https://github.com/kerrdec97/PS5-Backport-GUI/releases/tag/early-testing-beta-0.3.3)**
+
+**0.3.3 (testing build, fixes only):** Jurassic World Evolution 3 and MARVEL Tōkon build again (#23, #24), the drag-and-drop crash is fixed (#25), dumps that already carry another tool's `fakelib` folder build (#27), leftover macOS/Windows metadata files no longer fail a build, and the PS5 Pro PSSR 2 test is labelled experimental with clear messages. Verified offline and on a Windows PC; console results are being collected from testers — please report yours in the [issues](https://github.com/kerrdec97/PS5-Backport-GUI/issues). The last stable build remains **[0.3.2](https://github.com/kerrdec97/PS5-Backport-GUI/releases/latest)**.
 
 **New in 0.3.2:** fixed a false "Not enough free space for the backport engine's working files" message on bigger games, even with plenty of space free.
 
