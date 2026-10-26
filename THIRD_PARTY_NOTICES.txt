@@ -12,6 +12,19 @@ Also used, with thanks: the SDK version approach of ps5_elf_sdk_downgrade.py by 
 (https://github.com/Nazky/Auto-Backpork), and ps5debug-NG v1.3.2 (console debug payload,
 distributed unmodified).
 
+Known-good AMPR / PlayGo libraries bundled since 0.3.4 (the "Switch AMPR / PlayGo" option)
+-------------------------------------------------------------------------------------------
+- ampr_emu 0.4.2.1 by drakmor (libSceAmpr.sprx, SHA-256 prefix 2feef6a2; libScePlayGo.sprx, SHA-256
+  prefix f5fdb0ed) - GNU General Public License version 3 (GPL-3.0).
+  https://github.com/drakmor/ampr_emu
+  The two libraries are redistributed unchanged, as built by the upstream project, and are
+  hash-pinned in the program (app/fakelib_variants/MANIFEST.json). Their source code and the
+  full licence text are available at the repository above; the licence text is also at
+  https://www.gnu.org/licenses/gpl-3.0.txt. The GPL-3.0 applies to these two files only; the
+  program loads them as data (they are console libraries copied into a backport) and does not
+  link against them.
+- The other bundled libraries (AMPR 82484486, AMPR 0aadd31d, PlayGo a0f20f40) are the
+  compatibility providers the program's engine already writes into every backport.
 ===============================================================================
 Python 3.14.7 runtime and standard library
 https://www.python.org/
